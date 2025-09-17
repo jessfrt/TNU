@@ -1,4 +1,4 @@
-# TNU-real
+# TNU
 Tradutor offline que vira número e traduz de novo.  
 5 MB, sem internet, com IPA real.
 
