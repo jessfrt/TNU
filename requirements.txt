@@ -1,0 +1,4 @@
+phonemizer
+blake3
+flask
+nltk
