@@ -1,0 +1,1253 @@
+[
+  {
+    "query": "água",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "AGUA",
+    "success": true,
+    "output": "en:water score=0.044433 D=0.000 relation=same\nen:sea score=0.208357 D=0.179 relation=related\nen:river score=0.362163 D=0.370 relation=related\nen:foodstuff score=0.530992 D=0.599 relation=None\nen:nutrient score=0.536666 D=0.599 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query água --lang pt --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "water",
+        "score": 0.044433,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "sea",
+        "score": 0.208357,
+        "d": 0.179,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "river",
+        "score": 0.362163,
+        "d": 0.37,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "foodstuff",
+        "score": 0.530992,
+        "d": 0.599,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "nutrient",
+        "score": 0.536666,
+        "d": 0.599,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "água",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": false,
+    "mode": "Legado",
+    "concept": "AGUA",
+    "success": true,
+    "output": "devotion ↔ water",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query água --lang pt --target en --top-k 5",
+    "results": [
+      {
+        "lang": "en",
+        "word": "devotion",
+        "score": null,
+        "d": null,
+        "relation": null
+      },
+      {
+        "lang": "en",
+        "word": "water",
+        "score": null,
+        "d": null,
+        "relation": null
+      }
+    ]
+  },
+  {
+    "query": "water",
+    "lang_from": "en",
+    "lang_to": "pt",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "AGUA",
+    "success": true,
+    "output": "pt:água score=0.044433 D=0.000 relation=same\npt:mar score=0.221390 D=0.179 relation=related\npt:riacho score=0.344030 D=0.370 relation=related\npt:nutriente score=0.529409 D=0.599 relation=None\npt:comida score=0.533399 D=0.599 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query water --lang en --target pt --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "pt",
+        "word": "água",
+        "score": 0.044433,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "pt",
+        "word": "mar",
+        "score": 0.22139,
+        "d": 0.179,
+        "relation": "related"
+      },
+      {
+        "lang": "pt",
+        "word": "riacho",
+        "score": 0.34403,
+        "d": 0.37,
+        "relation": "related"
+      },
+      {
+        "lang": "pt",
+        "word": "nutriente",
+        "score": 0.529409,
+        "d": 0.599,
+        "relation": "None"
+      },
+      {
+        "lang": "pt",
+        "word": "comida",
+        "score": 0.533399,
+        "d": 0.599,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "sea",
+    "lang_from": "en",
+    "lang_to": "pt",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "AGUA",
+    "success": true,
+    "output": "pt:mar score=0.046133 D=0.000 relation=same\npt:água score=0.210290 D=0.179 relation=related\npt:riacho score=0.233445 D=0.213 relation=None\npt:alimento score=0.567680 D=0.642 relation=None\npt:comida score=0.579393 D=0.642 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query sea --lang en --target pt --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "pt",
+        "word": "mar",
+        "score": 0.046133,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "pt",
+        "word": "água",
+        "score": 0.21029,
+        "d": 0.179,
+        "relation": "related"
+      },
+      {
+        "lang": "pt",
+        "word": "riacho",
+        "score": 0.233445,
+        "d": 0.213,
+        "relation": "None"
+      },
+      {
+        "lang": "pt",
+        "word": "alimento",
+        "score": 0.56768,
+        "d": 0.642,
+        "relation": "None"
+      },
+      {
+        "lang": "pt",
+        "word": "comida",
+        "score": 0.579393,
+        "d": 0.642,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "rio",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "AGUA",
+    "success": true,
+    "output": "en:river score=0.047000 D=0.000 relation=same\nen:sea score=0.225812 D=0.213 relation=related\nen:water score=0.363063 D=0.370 relation=related\nen:light score=0.582360 D=0.671 relation=None\nen:food score=0.621278 D=0.728 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query rio --lang pt --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "river",
+        "score": 0.047,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "sea",
+        "score": 0.225812,
+        "d": 0.213,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "water",
+        "score": 0.363063,
+        "d": 0.37,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "light",
+        "score": 0.58236,
+        "d": 0.671,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "food",
+        "score": 0.621278,
+        "d": 0.728,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "comida",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "COMIDA",
+    "success": true,
+    "output": "en:foodstuff score=0.043567 D=0.000 relation=same\nen:nutrient score=0.047890 D=0.000 relation=related\nen:food score=0.054124 D=0.000 relation=same\nen:meal score=0.343127 D=0.365 relation=related\nen:light score=0.468043 D=0.509 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query comida --lang pt --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "foodstuff",
+        "score": 0.043567,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "nutrient",
+        "score": 0.04789,
+        "d": 0.0,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "food",
+        "score": 0.054124,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "meal",
+        "score": 0.343127,
+        "d": 0.365,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "light",
+        "score": 0.468043,
+        "d": 0.509,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "comida",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": false,
+    "mode": "Legado",
+    "concept": "COMIDA",
+    "success": true,
+    "output": "residence ↔ life ↔ living ↔ home ↔ waters",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query comida --lang pt --target en --top-k 5",
+    "results": [
+      {
+        "lang": "en",
+        "word": "residence",
+        "score": null,
+        "d": null,
+        "relation": null
+      },
+      {
+        "lang": "en",
+        "word": "life",
+        "score": null,
+        "d": null,
+        "relation": null
+      },
+      {
+        "lang": "en",
+        "word": "living",
+        "score": null,
+        "d": null,
+        "relation": null
+      },
+      {
+        "lang": "en",
+        "word": "home",
+        "score": null,
+        "d": null,
+        "relation": null
+      },
+      {
+        "lang": "en",
+        "word": "waters",
+        "score": null,
+        "d": null,
+        "relation": null
+      }
+    ]
+  },
+  {
+    "query": "food",
+    "lang_from": "en",
+    "lang_to": "pt",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "COMIDA",
+    "success": true,
+    "output": "pt:comida score=0.052724 D=0.000 relation=same\npt:alimento score=0.054344 D=0.000 relation=same\npt:nutriente score=0.081733 D=0.000 relation=related\npt:refeição score=0.357746 D=0.365 relation=related\npt:água score=0.553175 D=0.599 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query food --lang en --target pt --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "pt",
+        "word": "comida",
+        "score": 0.052724,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "pt",
+        "word": "alimento",
+        "score": 0.054344,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "pt",
+        "word": "nutriente",
+        "score": 0.081733,
+        "d": 0.0,
+        "relation": "related"
+      },
+      {
+        "lang": "pt",
+        "word": "refeição",
+        "score": 0.357746,
+        "d": 0.365,
+        "relation": "related"
+      },
+      {
+        "lang": "pt",
+        "word": "água",
+        "score": 0.553175,
+        "d": 0.599,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "fruta",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "COMIDA",
+    "success": true,
+    "output": "en:foodstuff score=0.177229 D=0.182 relation=related\nen:nutrient score=0.188260 D=0.182 relation=related\nen:food score=0.204979 D=0.182 relation=related\nen:meal score=0.279592 D=0.270 relation=related\nen:light score=0.457367 D=0.479 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query fruta --lang pt --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "foodstuff",
+        "score": 0.177229,
+        "d": 0.182,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "nutrient",
+        "score": 0.18826,
+        "d": 0.182,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "food",
+        "score": 0.204979,
+        "d": 0.182,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "meal",
+        "score": 0.279592,
+        "d": 0.27,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "light",
+        "score": 0.457367,
+        "d": 0.479,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "amor",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "AMOR",
+    "success": true,
+    "output": "en:love score=0.052800 D=0.000 relation=same\nen:happiness score=0.053150 D=0.000 relation=None\nen:passion score=0.058224 D=0.000 relation=related\nen:affection score=0.182200 D=0.144 relation=related\nen:existence score=0.755167 D=0.875 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query amor --lang pt --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "love",
+        "score": 0.0528,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "happiness",
+        "score": 0.05315,
+        "d": 0.0,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "passion",
+        "score": 0.058224,
+        "d": 0.0,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "affection",
+        "score": 0.1822,
+        "d": 0.144,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "existence",
+        "score": 0.755167,
+        "d": 0.875,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "amor",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": false,
+    "mode": "Legado",
+    "concept": "AMOR",
+    "success": true,
+    "output": "residence ↔ living ↔ home ↔ residence ↔ life",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query amor --lang pt --target en --top-k 5",
+    "results": [
+      {
+        "lang": "en",
+        "word": "residence",
+        "score": null,
+        "d": null,
+        "relation": null
+      },
+      {
+        "lang": "en",
+        "word": "living",
+        "score": null,
+        "d": null,
+        "relation": null
+      },
+      {
+        "lang": "en",
+        "word": "home",
+        "score": null,
+        "d": null,
+        "relation": null
+      },
+      {
+        "lang": "en",
+        "word": "residence",
+        "score": null,
+        "d": null,
+        "relation": null
+      },
+      {
+        "lang": "en",
+        "word": "life",
+        "score": null,
+        "d": null,
+        "relation": null
+      }
+    ]
+  },
+  {
+    "query": "love",
+    "lang_from": "en",
+    "lang_to": "pt",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "AMOR",
+    "success": true,
+    "output": "pt:amor score=0.043633 D=0.000 relation=same\npt:paixão score=0.060167 D=0.000 relation=related\npt:viver score=0.742100 D=0.875 relation=None\npt:vida score=0.750800 D=0.875 relation=None\npt:alimento score=0.754835 D=0.893 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query love --lang en --target pt --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "pt",
+        "word": "amor",
+        "score": 0.043633,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "pt",
+        "word": "paixão",
+        "score": 0.060167,
+        "d": 0.0,
+        "relation": "related"
+      },
+      {
+        "lang": "pt",
+        "word": "viver",
+        "score": 0.7421,
+        "d": 0.875,
+        "relation": "None"
+      },
+      {
+        "lang": "pt",
+        "word": "vida",
+        "score": 0.7508,
+        "d": 0.875,
+        "relation": "None"
+      },
+      {
+        "lang": "pt",
+        "word": "alimento",
+        "score": 0.754835,
+        "d": 0.893,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "paixão",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "AMOR",
+    "success": true,
+    "output": "en:passion score=0.052262 D=0.000 relation=same\nen:happiness score=0.056117 D=0.000 relation=None\nen:love score=0.069333 D=0.000 relation=related\nen:affection score=0.192111 D=0.144 relation=related\nen:life score=0.754933 D=0.875 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query paixão --lang pt --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "passion",
+        "score": 0.052262,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "happiness",
+        "score": 0.056117,
+        "d": 0.0,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "love",
+        "score": 0.069333,
+        "d": 0.0,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "affection",
+        "score": 0.192111,
+        "d": 0.144,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "life",
+        "score": 0.754933,
+        "d": 0.875,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "casa",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "CASA",
+    "success": true,
+    "output": "en:house score=0.046467 D=0.000 relation=same\nen:dwelling score=0.048090 D=0.000 relation=same\nen:residence score=0.048767 D=0.000 relation=related\nen:home score=0.158344 D=0.139 relation=related\nen:car score=0.219564 D=0.212 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query casa --lang pt --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "house",
+        "score": 0.046467,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "dwelling",
+        "score": 0.04809,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "residence",
+        "score": 0.048767,
+        "d": 0.0,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "home",
+        "score": 0.158344,
+        "d": 0.139,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "car",
+        "score": 0.219564,
+        "d": 0.212,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "casa",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": false,
+    "mode": "Legado",
+    "concept": "CASA",
+    "success": true,
+    "output": "food ↔ sea ↔ food",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query casa --lang pt --target en --top-k 5",
+    "results": [
+      {
+        "lang": "en",
+        "word": "food",
+        "score": null,
+        "d": null,
+        "relation": null
+      },
+      {
+        "lang": "en",
+        "word": "sea",
+        "score": null,
+        "d": null,
+        "relation": null
+      },
+      {
+        "lang": "en",
+        "word": "food",
+        "score": null,
+        "d": null,
+        "relation": null
+      }
+    ]
+  },
+  {
+    "query": "home",
+    "lang_from": "en",
+    "lang_to": "pt",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "CASA",
+    "success": true,
+    "output": "pt:lar score=0.068300 D=0.000 relation=same\npt:domicílio score=0.149511 D=0.139 relation=related\npt:moradia score=0.157644 D=0.139 relation=related\npt:casa score=0.157844 D=0.139 relation=related\npt:refeição score=0.486306 D=0.539 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query home --lang en --target pt --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "pt",
+        "word": "lar",
+        "score": 0.0683,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "pt",
+        "word": "domicílio",
+        "score": 0.149511,
+        "d": 0.139,
+        "relation": "related"
+      },
+      {
+        "lang": "pt",
+        "word": "moradia",
+        "score": 0.157644,
+        "d": 0.139,
+        "relation": "related"
+      },
+      {
+        "lang": "pt",
+        "word": "casa",
+        "score": 0.157844,
+        "d": 0.139,
+        "relation": "related"
+      },
+      {
+        "lang": "pt",
+        "word": "refeição",
+        "score": 0.486306,
+        "d": 0.539,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "vida",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "VIDA",
+    "success": true,
+    "output": "en:life score=0.035567 D=0.000 relation=same\nen:existence score=0.052333 D=0.000 relation=same\nen:biography score=0.151291 D=0.136 relation=related\nen:living score=0.252448 D=0.273 relation=related\nen:home score=0.689896 D=0.799 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query vida --lang pt --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "life",
+        "score": 0.035567,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "existence",
+        "score": 0.052333,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "biography",
+        "score": 0.151291,
+        "d": 0.136,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "living",
+        "score": 0.252448,
+        "d": 0.273,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "home",
+        "score": 0.689896,
+        "d": 0.799,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "vida",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": false,
+    "mode": "Legado",
+    "concept": "VIDA",
+    "success": true,
+    "output": "light ↔ food ↔ food",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query vida --lang pt --target en --top-k 5",
+    "results": [
+      {
+        "lang": "en",
+        "word": "light",
+        "score": null,
+        "d": null,
+        "relation": null
+      },
+      {
+        "lang": "en",
+        "word": "food",
+        "score": null,
+        "d": null,
+        "relation": null
+      },
+      {
+        "lang": "en",
+        "word": "food",
+        "score": null,
+        "d": null,
+        "relation": null
+      }
+    ]
+  },
+  {
+    "query": "life",
+    "lang_from": "en",
+    "lang_to": "pt",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "VIDA",
+    "success": true,
+    "output": "pt:vida score=0.038300 D=0.000 relation=same\npt:existência score=0.054433 D=0.000 relation=same\npt:biografia score=0.151991 D=0.136 relation=related\npt:viver score=0.247782 D=0.273 relation=related\npt:lar score=0.695596 D=0.799 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query life --lang en --target pt --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "pt",
+        "word": "vida",
+        "score": 0.0383,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "pt",
+        "word": "existência",
+        "score": 0.054433,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "pt",
+        "word": "biografia",
+        "score": 0.151991,
+        "d": 0.136,
+        "relation": "related"
+      },
+      {
+        "lang": "pt",
+        "word": "viver",
+        "score": 0.247782,
+        "d": 0.273,
+        "relation": "related"
+      },
+      {
+        "lang": "pt",
+        "word": "lar",
+        "score": 0.695596,
+        "d": 0.799,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "existência",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "VIDA",
+    "success": true,
+    "output": "en:existence score=0.030400 D=0.000 relation=same\nen:life score=0.055033 D=0.000 relation=same\nen:biography score=0.159624 D=0.136 relation=related\nen:living score=0.279915 D=0.273 relation=related\nen:home score=0.697229 D=0.799 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query existência --lang pt --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "existence",
+        "score": 0.0304,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "life",
+        "score": 0.055033,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "biography",
+        "score": 0.159624,
+        "d": 0.136,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "living",
+        "score": 0.279915,
+        "d": 0.273,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "home",
+        "score": 0.697229,
+        "d": 0.799,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "luz",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "OUTROS",
+    "success": true,
+    "output": "en:light score=0.025500 D=0.000 relation=same\nen:food score=0.459552 D=0.509 relation=None\nen:nutrient score=0.472576 D=0.509 relation=None\nen:foodstuff score=0.474502 D=0.509 relation=None\nen:water score=0.566778 D=0.618 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query luz --lang pt --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "light",
+        "score": 0.0255,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "food",
+        "score": 0.459552,
+        "d": 0.509,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "nutrient",
+        "score": 0.472576,
+        "d": 0.509,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "foodstuff",
+        "score": 0.474502,
+        "d": 0.509,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "water",
+        "score": 0.566778,
+        "d": 0.618,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "eau",
+    "lang_from": "fr",
+    "lang_to": "pt",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "AGUA",
+    "success": true,
+    "output": "pt:água score=0.083067 D=0.000 relation=same\npt:mar score=0.211290 D=0.179 relation=related\npt:riacho score=0.368396 D=0.370 relation=related\npt:alimento score=0.545653 D=0.599 relation=None\npt:comida score=0.547366 D=0.599 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query eau --lang fr --target pt --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "pt",
+        "word": "água",
+        "score": 0.083067,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "pt",
+        "word": "mar",
+        "score": 0.21129,
+        "d": 0.179,
+        "relation": "related"
+      },
+      {
+        "lang": "pt",
+        "word": "riacho",
+        "score": 0.368396,
+        "d": 0.37,
+        "relation": "related"
+      },
+      {
+        "lang": "pt",
+        "word": "alimento",
+        "score": 0.545653,
+        "d": 0.599,
+        "relation": "None"
+      },
+      {
+        "lang": "pt",
+        "word": "comida",
+        "score": 0.547366,
+        "d": 0.599,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "Wasser",
+    "lang_from": "de",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "AGUA",
+    "success": true,
+    "output": "en:water score=0.047133 D=0.000 relation=same\nen:sea score=0.200124 D=0.179 relation=related\nen:river score=0.338930 D=0.370 relation=related\nen:nutrient score=0.518756 D=0.599 relation=None\nen:foodstuff score=0.521575 D=0.599 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query Wasser --lang de --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "water",
+        "score": 0.047133,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "sea",
+        "score": 0.200124,
+        "d": 0.179,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "river",
+        "score": 0.33893,
+        "d": 0.37,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "nutrient",
+        "score": 0.518756,
+        "d": 0.599,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "foodstuff",
+        "score": 0.521575,
+        "d": 0.599,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "maison",
+    "lang_from": "fr",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "CASA",
+    "success": true,
+    "output": "en:residence score=0.061200 D=0.000 relation=related\nen:house score=0.061833 D=0.000 relation=same\nen:dwelling score=0.066400 D=0.000 relation=same\nen:home score=0.169844 D=0.139 relation=related\nen:car score=0.251197 D=0.212 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query maison --lang fr --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "residence",
+        "score": 0.0612,
+        "d": 0.0,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "house",
+        "score": 0.061833,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "dwelling",
+        "score": 0.0664,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "home",
+        "score": 0.169844,
+        "d": 0.139,
+        "relation": "related"
+      },
+      {
+        "lang": "en",
+        "word": "car",
+        "score": 0.251197,
+        "d": 0.212,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "carro",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "OUTROS",
+    "success": true,
+    "output": "en:car score=0.058267 D=0.000 relation=same\nen:house score=0.218297 D=0.212 relation=None\nen:residence score=0.222664 D=0.212 relation=None\nen:dwelling score=0.225721 D=0.212 relation=None\nen:home score=0.298132 D=0.316 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query carro --lang pt --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "car",
+        "score": 0.058267,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "house",
+        "score": 0.218297,
+        "d": 0.212,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "residence",
+        "score": 0.222664,
+        "d": 0.212,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "dwelling",
+        "score": 0.225721,
+        "d": 0.212,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "home",
+        "score": 0.298132,
+        "d": 0.316,
+        "relation": "None"
+      }
+    ]
+  },
+  {
+    "query": "felicidade",
+    "lang_from": "pt",
+    "lang_to": "en",
+    "top_k": 5,
+    "hybrid": true,
+    "mode": "Hibrido",
+    "concept": "OUTROS",
+    "success": true,
+    "output": "en:happiness score=0.041397 D=0.000 relation=same\nen:passion score=0.051842 D=0.000 relation=None\nen:love score=0.058142 D=0.000 relation=None\nen:affection score=0.170898 D=0.144 relation=None\nen:life score=0.734652 D=0.875 relation=None",
+    "error": "",
+    "command": "C:\\Users\\jessi\\Desktop\\TNU- Registros\\TNU\\venv\\Scripts\\python.exe translate_partial.py --query felicidade --lang pt --target en --top-k 5 --hybrid",
+    "results": [
+      {
+        "lang": "en",
+        "word": "happiness",
+        "score": 0.041397,
+        "d": 0.0,
+        "relation": "same"
+      },
+      {
+        "lang": "en",
+        "word": "passion",
+        "score": 0.051842,
+        "d": 0.0,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "love",
+        "score": 0.058142,
+        "d": 0.0,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "affection",
+        "score": 0.170898,
+        "d": 0.144,
+        "relation": "None"
+      },
+      {
+        "lang": "en",
+        "word": "life",
+        "score": 0.734652,
+        "d": 0.875,
+        "relation": "None"
+      }
+    ]
+  }
+]

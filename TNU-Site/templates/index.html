@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR" data-bs-theme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TNU — Tradutor Numérico Universal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top glass-nav"><div class="container">
+  <a class="navbar-brand brand" href="#home"><span class="brand-mark">σ</span> TNU</a>
+  <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="nav"><ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+    <li class="nav-item"><a class="nav-link" href="#search">Busca</a></li><li class="nav-item"><a class="nav-link" href="#compare">Comparar</a></li>
+    <li class="nav-item"><a class="nav-link" href="#ruler">Régua</a></li><li class="nav-item"><a class="nav-link" href="#ontology">Ontologia</a></li>
+    <li class="nav-item"><a class="nav-link" href="#stats">Estatísticas</a></li><li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+    <li class="nav-item"><button id="themeToggle" class="btn btn-sm btn-outline-secondary ms-lg-2" aria-label="Alternar tema"><i class="fa-solid fa-moon"></i></button></li>
+  </ul></div>
+</div></nav>
+
+<main>
+<section id="home" class="hero"><div class="container py-5"><div class="row align-items-center min-vh-75">
+  <div class="col-lg-7" data-aos="fade-up"><p class="eyebrow">SISTEMA SIMBÓLICO E DETERMINÍSTICO</p><h1>O significado como <em>geometria.</em></h1>
+  <p class="lead">O Tradutor Numérico Universal organiza palavras em um espaço métrico explicável, combinando forma, som e a Camada D ontológica.</p>
+  <p>Explore traduções, compare o modelo legado e observe por que <strong>água</strong> se aproxima de <strong>water</strong> sem ser confundida com <strong>sea</strong>.</p>
+  <div class="d-flex flex-wrap gap-2"><button class="btn btn-primary btn-lg" data-start-tutorial>Começar tutorial <i class="fa-solid fa-arrow-right ms-1"></i></button><a href="#search" class="btn btn-outline-primary btn-lg">Testar agora</a></div></div>
+  <div class="col-lg-5 mt-5 mt-lg-0" data-aos="zoom-in"><div class="sigma-card"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="sigma-core">σ<small>A · B · C · D</small></div><div class="metric-chip chip-one">D = Ontologia</div><div class="metric-chip chip-two">B = Projeção</div></div></div>
+</div></div></section>
+
+<section id="search" class="section"><div class="container"><div class="section-heading"><p class="eyebrow">BUSCA PRINCIPAL</p><h2>Tradução híbrida</h2><p>A Camada D recebe o maior peso: uma tradução exata fica antes de termos apenas relacionados.</p></div>
+<div class="panel" data-aos="fade-up"><form id="searchForm" class="row g-3 align-items-end"><div class="col-md-4"><label for="query" class="form-label">Palavra</label><input id="query" class="form-control form-control-lg" value="água" placeholder="Ex.: água" required></div>
+<div class="col-6 col-md-2"><label for="langFrom" class="form-label">Origem</label><select id="langFrom" class="form-select"></select></div><div class="col-6 col-md-2"><label for="langTo" class="form-label">Destino</label><select id="langTo" class="form-select"></select></div>
+<div class="col-md-2"><label for="topK" class="form-label">Resultados <output id="topKValue">5</output></label><input id="topK" class="form-range" type="range" min="1" max="10" value="5"></div><div class="col-md-2"><button class="btn btn-primary w-100 btn-lg" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Buscar</button></div></form></div>
+<div id="searchLoading" class="text-center py-4 d-none"><div class="spinner-border text-primary"></div><p class="mt-2">Calculando espaço semântico…</p></div><div id="searchEmpty" class="empty-state">Faça uma busca para visualizar a geometria da tradução.</div>
+<div id="searchResults" class="d-none"><div class="result-actions"><h3>Resultados</h3><div><button class="btn btn-sm btn-outline-secondary export-btn" data-format="csv">CSV</button><button class="btn btn-sm btn-outline-secondary export-btn" data-format="json">JSON</button><button class="btn btn-sm btn-outline-secondary" id="pdfExport">PDF</button></div></div><div class="table-responsive"><table class="table align-middle" id="resultsTable"><thead><tr><th>Palavra</th><th>Idioma</th><th>Score</th><th>Distância D</th><th>Relação</th></tr></thead><tbody></tbody></table></div><div class="chart-wrap"><canvas id="resultsChart"></canvas></div></div>
+</div></section>
+
+<section id="compare" class="section section-alt"><div class="container"><div class="section-heading"><p class="eyebrow">EXPERIMENTO</p><h2>Legado × Híbrido</h2><p>Compare uma busca baseada no code-O com a busca ontológica.</p></div><button id="compareButton" class="btn btn-outline-primary mb-4">Comparar a consulta atual</button><div class="row g-4"><div class="col-md-6"><div class="panel h-100"><h3><span class="dot dot-blue"></span> Legado</h3><div id="legacyResults" class="result-list text-muted">Aguardando consulta.</div></div></div><div class="col-md-6"><div class="panel h-100"><h3><span class="dot dot-green"></span> Híbrido</h3><div id="hybridResults" class="result-list text-muted">Aguardando consulta.</div></div></div></div><div class="panel mt-4 chart-wrap"><canvas id="compareChart"></canvas></div></div></section>
+
+<section id="ruler" class="section"><div class="container"><div class="section-heading"><p class="eyebrow">VISUALIZAÇÃO</p><h2>Régua semântica</h2></div><div class="panel d-flex flex-wrap gap-3 align-items-end"><div><label for="conceptSelect" class="form-label">Conceito</label><select id="conceptSelect" class="form-select"><option value="all">Todos</option><option value="agua">Água</option><option value="vida">Vida</option><option value="comida">Comida</option><option value="amor">Amor</option><option value="casa">Casa</option><option value="abrigo">Abrigo</option></select></div><button id="rulerButton" class="btn btn-primary">Gerar régua</button></div><div class="panel mt-4 chart-wrap ruler-chart"><canvas id="rulerChart"></canvas></div></div></section>
+
+<section id="ontology" class="section section-alt"><div class="container"><div class="section-heading"><p class="eyebrow">CAMADA D</p><h2>Ontologia</h2><p>Sentidos explícitos, vetores auditáveis e relações humanas.</p></div><div class="d-flex gap-2 mb-3"><button id="ontologyReload" class="btn btn-outline-primary">Recarregar</button><button id="ontologyImport" class="btn btn-primary">Importar para o banco</button></div><div id="ontologyLog" class="alert d-none" role="status"></div><div class="table-responsive panel p-0"><table class="table table-hover mb-0"><thead><tr><th>Sense ID</th><th>Vetor</th><th>Tags</th><th>Relações</th><th>Palavras</th></tr></thead><tbody id="ontologyTable"></tbody></table></div></div></section>
+
+<section id="stats" class="section"><div class="container"><div class="section-heading"><p class="eyebrow">DASHBOARD</p><h2>Estatísticas do corpus</h2></div><div id="statCards" class="row g-3 mb-4"></div><div class="row g-4"><div class="col-lg-6"><div class="panel chart-wrap"><canvas id="languageChart"></canvas></div></div><div class="col-lg-6"><div class="panel chart-wrap"><canvas id="senseChart"></canvas></div></div></div></div></section>
+
+<section id="about" class="section section-alt"><div class="container"><div class="row g-5"><div class="col-lg-7"><p class="eyebrow">SOBRE O TNU</p><h2>Uma hipótese de linguagem explicável</h2><p>O TNU investiga palavras como posições comparáveis em uma estrutura numérica. A proposta dialoga com a ordem implicada de David Bohm, a ideia “it from bit” de John Wheeler e os espaços conceituais de Peter Gärdenfors.</p><p>A Camada D evita que aparência seja confundida com significado: ela registra sentidos, propriedades e relações. O resultado não é uma caixa-preta — cada comparação expõe seu score e sua relação ontológica.</p></div><div class="col-lg-5"><div class="panel"><h3>Como usar</h3><ol><li>Escolha palavra e idiomas.</li><li>Execute a busca híbrida.</li><li>Leia score, D e relação.</li><li>Compare com o modo legado.</li></ol><hr><a href="/docs/ONTOLOGIA.md" target="_blank">Documentação da ontologia</a><br><a href="/docs/RELATORIO_LIMPEZA.md" target="_blank">Relatório de limpeza</a></div></div></div></div></section>
+</main>
+<footer><div class="container d-flex justify-content-between flex-wrap gap-2"><span><strong>TNU</strong> · Tradutor Numérico Universal</span><span>TNU © 2026 Jéssica Freitas — Engenharia de Software</span></div></footer>
+
+<div class="modal fade" id="tutorialModal" tabindex="-1" aria-labelledby="tutorialTitle" aria-modal="true" role="dialog"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header border-0"><span class="tutorial-step">Passo <span id="tutorialStep">1</span> de 5</span><button id="skipTutorial" class="btn-close" aria-label="Pular tutorial"></button></div><div class="progress mx-3"><div id="tutorialProgress" class="progress-bar" style="width:20%"></div></div><div class="modal-body py-4"><h3 id="tutorialTitle"></h3><p id="tutorialText" class="mb-0"></p></div><div class="modal-footer border-0"><button id="tutorialBack" class="btn btn-link">Voltar</button><button id="tutorialNext" class="btn btn-primary">Próximo</button></div></div></div></div>
+<div class="toast-container position-fixed bottom-0 end-0 p-3"><div id="appToast" class="toast" role="status"><div class="toast-body"></div></div></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script><script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script><script src="{{ url_for('static', filename='js/export.js') }}"></script><script src="{{ url_for('static', filename='js/tutorial.js') }}"></script><script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body></html>

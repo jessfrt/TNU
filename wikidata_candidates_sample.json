@@ -1,0 +1,124 @@
+{
+  "source": "Wikidata Action API",
+  "generated_at": "2026-08-04T02:21:49Z",
+  "ontology_revision": "industrial-seed-pt-v1",
+  "languages": [
+    "en",
+    "es",
+    "fr",
+    "de",
+    "it"
+  ],
+  "candidates": [
+    {
+      "sense_id": "ART.ANIMACAO",
+      "pt": "animação",
+      "domain": "art",
+      "status": "error",
+      "qid": null,
+      "labels": {},
+      "descriptions": {},
+      "confidence": 0.0,
+      "reason": "request_error:URLError"
+    },
+    {
+      "sense_id": "EMOTION.ADMIRACAO",
+      "pt": "admiração",
+      "domain": "emotion",
+      "status": "error",
+      "qid": null,
+      "labels": {},
+      "descriptions": {},
+      "confidence": 0.0,
+      "reason": "request_error:URLError"
+    },
+    {
+      "sense_id": "EMOTION.AMIZADE",
+      "pt": "amizade",
+      "domain": "emotion",
+      "status": "error",
+      "qid": null,
+      "labels": {},
+      "descriptions": {},
+      "confidence": 0.0,
+      "reason": "request_error:URLError"
+    },
+    {
+      "sense_id": "SCIENCE.ADICAO",
+      "pt": "adição",
+      "domain": "science",
+      "status": "error",
+      "qid": null,
+      "labels": {},
+      "descriptions": {},
+      "confidence": 0.0,
+      "reason": "request_error:URLError"
+    },
+    {
+      "sense_id": "SCIENCE.ANATOMIA",
+      "pt": "anatomia",
+      "domain": "science",
+      "status": "error",
+      "qid": null,
+      "labels": {},
+      "descriptions": {},
+      "confidence": 0.0,
+      "reason": "request_error:URLError"
+    },
+    {
+      "sense_id": "SOCIETY.AGRICULTURA",
+      "pt": "agricultura",
+      "domain": "society",
+      "status": "error",
+      "qid": null,
+      "labels": {},
+      "descriptions": {},
+      "confidence": 0.0,
+      "reason": "request_error:URLError"
+    },
+    {
+      "sense_id": "SOCIETY.ALIANCA",
+      "pt": "aliança",
+      "domain": "society",
+      "status": "error",
+      "qid": null,
+      "labels": {},
+      "descriptions": {},
+      "confidence": 0.0,
+      "reason": "request_error:URLError"
+    },
+    {
+      "sense_id": "SPORT.AGILIDADE",
+      "pt": "agilidade",
+      "domain": "sport",
+      "status": "error",
+      "qid": null,
+      "labels": {},
+      "descriptions": {},
+      "confidence": 0.0,
+      "reason": "request_error:URLError"
+    },
+    {
+      "sense_id": "SPORT.ALONGAMENTO",
+      "pt": "alongamento",
+      "domain": "sport",
+      "status": "error",
+      "qid": null,
+      "labels": {},
+      "descriptions": {},
+      "confidence": 0.0,
+      "reason": "request_error:URLError"
+    },
+    {
+      "sense_id": "TECHNOLOGY.ALGORITMO",
+      "pt": "algoritmo",
+      "domain": "technology",
+      "status": "error",
+      "qid": null,
+      "labels": {},
+      "descriptions": {},
+      "confidence": 0.0,
+      "reason": "request_error:URLError"
+    }
+  ]
+}

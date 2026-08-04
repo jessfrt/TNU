@@ -1,0 +1,78 @@
+{
+  "per_concept": {
+    "agua": {
+      "amplitude_intra": 0.56957,
+      "center": -0.07825583333333334,
+      "n": 24
+    },
+    "amor": {
+      "amplitude_intra": 0.4967499999999999,
+      "center": 0.037444166666666646,
+      "n": 24
+    },
+    "casa": {
+      "amplitude_intra": 0.4299349999999999,
+      "center": -0.009539166666666689,
+      "n": 24
+    },
+    "comida": {
+      "amplitude_intra": 0.4384950000000001,
+      "center": 0.03029833333333334,
+      "n": 24
+    },
+    "vida": {
+      "amplitude_intra": 0.44025000000000003,
+      "center": 0.020052499999999997,
+      "n": 24
+    }
+  },
+  "inter_pairs": [
+    {
+      "pair": "agua↔amor",
+      "dist": 0.1157
+    },
+    {
+      "pair": "agua↔casa",
+      "dist": 0.06871666666666665
+    },
+    {
+      "pair": "agua↔comida",
+      "dist": 0.10855416666666669
+    },
+    {
+      "pair": "agua↔vida",
+      "dist": 0.09830833333333334
+    },
+    {
+      "pair": "amor↔casa",
+      "dist": 0.046983333333333335
+    },
+    {
+      "pair": "amor↔comida",
+      "dist": 0.007145833333333306
+    },
+    {
+      "pair": "amor↔vida",
+      "dist": 0.01739166666666665
+    },
+    {
+      "pair": "casa↔comida",
+      "dist": 0.039837500000000026
+    },
+    {
+      "pair": "casa↔vida",
+      "dist": 0.029591666666666686
+    },
+    {
+      "pair": "comida↔vida",
+      "dist": 0.010245833333333343
+    }
+  ],
+  "summary": {
+    "mean_intra": 0.475,
+    "mean_inter": 0.054247500000000004,
+    "separability": 0.11420526315789475
+  },
+  "mode": "weighted",
+  "norm": "lang"
+}

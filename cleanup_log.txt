@@ -1,0 +1,33 @@
+2026-08-03T15:44:31 INÍCIO modo=APLICAR raiz=C:\Users\jessi\Desktop\TNU- Registros\TNU
+2026-08-03T15:44:33 SEM ALTERAÇÃO atualiza.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO atualiza_auto.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO emotion.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO etym.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO import_ontology.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO ipa_fixed.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO lookup_partial.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO metrics_gauge.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO ontology.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO plot_gauge.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO semantic_gap.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO sigma_partial.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO test_determinism.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO test_gauge_format.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO test_ipa_fixed.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO test_lookup_partial.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO test_ontology.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO test_quality_separability.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO test_sigma_partial.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO test_tnu.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO test_translate_compat.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO test_translate_partial.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO tnu.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO tnu_determinism.py
+2026-08-03T15:44:33 SEM ALTERAÇÃO translate_partial.py
+2026-08-03T15:44:33 MOVIDO de -> legado\de
+2026-08-03T15:44:33 MOVIDO pyvenv.cfg -> legado\pyvenv.cfg
+2026-08-03T15:44:33 MOVIDO atualiza.py -> legado\atualiza.py
+2026-08-03T15:44:33 MOVIDO atualiza_auto.py -> legado\atualiza_auto.py
+2026-08-03T15:44:33 MOVIDO atualiza_auto.log.json -> legado\atualiza_auto.log.json
+2026-08-03T15:44:33 MOVIDO in_backup_gap.csv -> legado\in_backup_gap.csv
+2026-08-03T15:44:33 FIM. Crie o novo ambiente com: python -m venv venv

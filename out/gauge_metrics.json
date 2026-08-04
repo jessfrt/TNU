@@ -1,0 +1,39 @@
+{
+  "per_concept": {
+    "agua": {
+      "amplitude_intra": 2.666,
+      "center": 1.508,
+      "n": 3
+    },
+    "amor": {
+      "amplitude_intra": 0.08599999999999985,
+      "center": 1.6443333333333332,
+      "n": 3
+    },
+    "casa": {
+      "amplitude_intra": 1.235,
+      "center": 1.434,
+      "n": 3
+    }
+  },
+  "inter_pairs": [
+    {
+      "pair": "agua↔amor",
+      "dist": 0.1363333333333332
+    },
+    {
+      "pair": "agua↔casa",
+      "dist": 0.07400000000000007
+    },
+    {
+      "pair": "amor↔casa",
+      "dist": 0.21033333333333326
+    }
+  ],
+  "summary": {
+    "mean_intra": 1.329,
+    "mean_inter": 0.14022222222222216,
+    "separability": 0.10550957277819577
+  },
+  "mode": "first"
+}

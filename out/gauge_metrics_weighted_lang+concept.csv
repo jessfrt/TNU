@@ -1,0 +1,12 @@
+concept,center,amplitude_intra,n
+agua,-0.718500,0.349000,3
+amor,-0.718500,0.089500,3
+casa,-0.718500,0.291500,3
+
+concept_pair,dist
+agua↔amor,0.000000
+agua↔casa,0.000000
+amor↔casa,0.000000
+
+summary,mean_intra,mean_inter,separability
+all,0.243333,0.000000,0.000000
